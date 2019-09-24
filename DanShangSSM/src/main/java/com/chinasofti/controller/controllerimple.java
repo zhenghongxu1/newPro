@@ -10,7 +10,6 @@ import com.chinasofti.server.UserDaoServer;
 @Controller
 @RequestMapping("/user")
 public class controllerimple {
-//111115555
 	@Autowired
 	UserDaoServer dao;
 	@RequestMapping("/register")
