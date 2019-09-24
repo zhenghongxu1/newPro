@@ -10,7 +10,7 @@ import com.chinasofti.server.UserDaoServer;
 @Controller
 @RequestMapping("/user")
 public class controllerimple {
-//这里是测试以下冲突的表�111��1
+//1
 	@Autowired
 	UserDaoServer dao;
 	@RequestMapping("/register")
